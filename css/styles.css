@@ -19,8 +19,126 @@ ul {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 body {
   margin: 0;
-  font-family: sans-serif;
-  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2eae2;
+}
+.flex {
+  padding: 28px 16px;
+}
+@media screen and (width>768px) {
+  .flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.card {
+  width: 343px;
+  height: 611px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+@media screen and (width>768px) {
+  .card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+  }
+}
+
+.image1 {
+  border-radius: 10px 10px 0px 0px;
+}
+@media screen and (width>768px) {
+  .image1 {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+.pading {
+  height: 371px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (width>768px) {
+  .pading {
+    width: 300px;
+    height: 450px;
+    padding: 37px;
+  }
+}
+.subtitle {
+  width: 295px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6c7289;
+  letter-spacing: 5px;
+}
+.title {
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 28px;
+  color: #1c232b;
+}
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #6c7289;
+}
+.flex-price {
+  display: flex;
+  align-items: center;
+}
+.text-decoration {
+  font-family: 'Montserrat';
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 13px;
+  color: #6c7289;
+}
+.price {
+  font-family: 'Fraunces';
+  width: 127px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #3d8168;
+}
+.button {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #3d8168;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (hover: hover) {
+  .button:hover {
+    background-color: #1a4032;
+  }
+}
+
+.image2 {
+  width: 15px;
+  height: 16px;
+  margin-right: 12px;
+}
+.button-text {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
 }
